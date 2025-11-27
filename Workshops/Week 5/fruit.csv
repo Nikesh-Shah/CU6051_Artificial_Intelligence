@@ -1,0 +1,5 @@
+"Color (0: Red, 1: Yellow)","Shape (0: Round, 1: Elongated)","Size (0: Small, 1: Large)","Fruit (0: Apple, 1: Banana)"
+0,0,1,0
+1,1,0,1
+0,0,0,0
+1,1,1,1
