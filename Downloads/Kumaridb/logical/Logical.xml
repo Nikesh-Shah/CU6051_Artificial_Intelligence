@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C2D70F2E-9C33-72C6-1EF3-5D9001A83AE2" mainViewID="74703925-289F-0A2B-57BC-D3641E6C5FA1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:25:58 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

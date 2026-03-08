@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69324A4C-78BD-879D-B4F8-D7196BA2C346" containerWithKeyObject="07D3DE3D-1389-DED8-41E0-6C3E9608B1CD" localFKIndex="00A2376D-9111-C459-0C75-F1DCC4C7ED75" name="FK_SEAT_SEATTYPE">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>FK_SEAT_SEATTYPE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<referredTableLongName>KUMARICINEMA.SEATTYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>396BE283-CA25-3D80-8A37-A255DD4C8925</referredTableID>
+<keyObject>4FCD4E1B-FE9F-2ED6-F8E0-DA2FB1BA6548</keyObject>
+<referredKeyID>4FCD4E1B-FE9F-2ED6-F8E0-DA2FB1BA6548</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SEATTYPEID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

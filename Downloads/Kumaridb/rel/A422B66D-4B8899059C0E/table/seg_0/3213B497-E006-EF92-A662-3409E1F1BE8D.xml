@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3213B497-E006-EF92-A662-3409E1F1BE8D" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="BOOKING">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>BOOKING</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOKINGID" id="15781F04-3A5F-C6D3-6B4F-D3C2066D6755">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>BOOKINGID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="USERID" id="CC93D4AB-9D23-90D4-2487-86A31C79CB01">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A73218F4-0819-8FF4-DF09-2A01CAAD9794" referredColumn="3C4CFF2B-D12A-D5D1-8CE4-DAC7272A433F"/>
+</associations>
+</Column>
+<Column name="PAYMENTID" id="7460B4E6-C07E-B639-826A-AEF5CF25CEFB">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>PAYMENTID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F1F355-25DD-3B8F-C53B-6DF1D7B20E40" referredColumn="73995936-D480-F103-E194-446AC6494009"/>
+</associations>
+</Column>
+<Column name="SHOWID" id="648D4619-D7AC-CD5F-642B-CDA85CFC56BA">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>SHOWID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D3F3820-1AF6-EF42-29B4-F74B9DEC6BE9" referredColumn="33A98D59-4F1B-98E2-0C74-DB3507F1AADB"/>
+</associations>
+</Column>
+<Column name="MOVIEID" id="23DB65F5-A959-51BD-5BE0-871F2465249F">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>MOVIEID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1718782C-4CF2-44B2-0A05-3D307C4574D6" referredColumn="F337E0FF-7506-3E14-FB08-FA3DA43E6DCF"/>
+</associations>
+</Column>
+<Column name="HALLID" id="22180B84-95F9-04C4-F6C7-34D6F39530D5">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>HALLID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="015FF4E8-7A2C-1B94-69AF-956588A4F406" referredColumn="B7CCBF54-190B-8771-2EDB-A6650B305271"/>
+</associations>
+</Column>
+<Column name="THEATREID" id="BE36D988-78C1-7183-F99F-8552497232AD">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>THEATREID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77F73F7A-D01C-71B0-CF44-A7EC62141FC8" referredColumn="67DE5588-BD7B-AD3D-F094-572EDF3AA7C5"/>
+</associations>
+</Column>
+<Column name="BOOKINGDATETIME" id="88FE7934-D1FC-77E3-3A4A-0E23911D87C4">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>BOOKINGDATETIME</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKINGSTATUS" id="1CD61CEE-B6DB-5136-2ABC-4E44FE656F4B">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>BOOKING</sourceObjSchema>
+<sourceObjName>BOOKINGSTATUS</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87BE4EF1-235D-38BB-2CD2-177A58F09B35" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="BOOKING_PK">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>SYS_C009071</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:03 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15781F04-3A5F-C6D3-6B4F-D3C2066D6755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0984C23-372A-3577-66A5-4DD1286C6454" name="FK_BOOKING_HALL">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22180B84-95F9-04C4-F6C7-34D6F39530D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D7B4DB1-A75F-9D6A-27A5-D1BCB0FBA0B5" name="FK_BOOKING_MOVIE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23DB65F5-A959-51BD-5BE0-871F2465249F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D55A2ABC-2806-715C-6885-CD7D997C40A0" name="FK_BOOKING_PAYMENT">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7460B4E6-C07E-B639-826A-AEF5CF25CEFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="748900AC-B04E-D858-0F04-AAE375B25C9A" name="FK_BOOKING_SHOW">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="648D4619-D7AC-CD5F-642B-CDA85CFC56BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0A435A0-25D7-28F9-2EDF-60F20B7CDAD6" name="FK_BOOKING_THEATRE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE36D988-78C1-7183-F99F-8552497232AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06733DBE-A4B5-03D7-843B-52B41C89ABD6" name="FK_BOOKING_USER">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC93D4AB-9D23-90D4-2487-86A31C79CB01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

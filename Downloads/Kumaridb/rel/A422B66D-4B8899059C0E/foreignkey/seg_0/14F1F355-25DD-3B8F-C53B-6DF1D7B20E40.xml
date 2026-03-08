@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14F1F355-25DD-3B8F-C53B-6DF1D7B20E40" containerWithKeyObject="3213B497-E006-EF92-A662-3409E1F1BE8D" localFKIndex="D55A2ABC-2806-715C-6885-CD7D997C40A0" name="FK_BOOKING_PAYMENT">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>FK_BOOKING_PAYMENT</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<referredTableLongName>KUMARICINEMA.PAYMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E7317CA-4876-4EDD-C261-7F73FA182F30</referredTableID>
+<keyObject>88FBBE7D-9D5D-D929-61B0-CD9BF3D8B44A</keyObject>
+<referredKeyID>88FBBE7D-9D5D-D929-61B0-CD9BF3D8B44A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PAYMENTID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

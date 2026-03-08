@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="015FF4E8-7A2C-1B94-69AF-956588A4F406" containerWithKeyObject="3213B497-E006-EF92-A662-3409E1F1BE8D" localFKIndex="B0984C23-372A-3577-66A5-4DD1286C6454" name="FK_BOOKING_HALL">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>FK_BOOKING_HALL</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<referredTableLongName>KUMARICINEMA.HALL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8AE249A-A2D6-B43F-C2E5-E9FBB2703230</referredTableID>
+<keyObject>4DB180B9-C5F6-05C6-F068-0CB0BB6DC9C1</keyObject>
+<referredKeyID>4DB180B9-C5F6-05C6-F068-0CB0BB6DC9C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HALLID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

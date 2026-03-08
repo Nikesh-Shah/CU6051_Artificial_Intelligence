@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BOOKING" directorySegmentName="seg_0" id="3213B497-E006-EF92-A662-3409E1F1BE8D">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<schemaObject>CDC3E17C-45E7-704F-4727-05E1A1AD4841</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D369F069-CFAA-24D4-53BF-3CEB7A3489D8</segment>
+<tableSpace>4D3C86C0-0DD9-A27A-C780-C865F194C800</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOOKINGID" id="15781F04-3A5F-C6D3-6B4F-D3C2066D6755">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="BOOKINGSTATUS" id="1CD61CEE-B6DB-5136-2ABC-4E44FE656F4B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HALLID" id="22180B84-95F9-04C4-F6C7-34D6F39530D5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOVIEID" id="23DB65F5-A959-51BD-5BE0-871F2465249F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHOWID" id="648D4619-D7AC-CD5F-642B-CDA85CFC56BA">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENTID" id="7460B4E6-C07E-B639-826A-AEF5CF25CEFB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKINGDATETIME" id="88FE7934-D1FC-77E3-3A4A-0E23911D87C4">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="THEATREID" id="BE36D988-78C1-7183-F99F-8552497232AD">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERID" id="CC93D4AB-9D23-90D4-2487-86A31C79CB01">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_USER" id="06733DBE-A4B5-03D7-843B-52B41C89ABD6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_SHOW" id="748900AC-B04E-D858-0F04-AAE375B25C9A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_MOVIE" id="9D7B4DB1-A75F-9D6A-27A5-D1BCB0FBA0B5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_THEATRE" id="A0A435A0-25D7-28F9-2EDF-60F20B7CDAD6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_HALL" id="B0984C23-372A-3577-66A5-4DD1286C6454">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOKING_PAYMENT" id="D55A2ABC-2806-715C-6885-CD7D997C40A0">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOKING_PK" id="87BE4EF1-235D-38BB-2CD2-177A58F09B35">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:06 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<schemaObject>CDC3E17C-45E7-704F-4727-05E1A1AD4841</schemaObject>
+<segment>83440E36-FD3B-1CF4-DFA6-6B0BA8DC103A</segment>
+<tableSpace>4D3C86C0-0DD9-A27A-C780-C865F194C800</tableSpace>
+<indexSegment>83440E36-FD3B-1CF4-DFA6-6B0BA8DC103A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

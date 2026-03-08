@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CAA2B55-2E42-4E63-5EEB-346ABF27A73D" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="MOVIE">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>MOVIE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MOVIEID" id="F337E0FF-7506-3E14-FB08-FA3DA43E6DCF">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>MOVIEID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TITLE" id="A5D81842-A3C9-51C6-F083-D721026FF466">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURATION" id="B23275BC-1BB7-A5DA-7DF8-7469D0A6CB73">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>DURATION</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENRE" id="7548B80F-7132-E54F-D4C8-0B9774317279">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>GENRE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELEASEDATE" id="A3CB6B3C-0941-A205-B24C-CE0B47B3C43D">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>RELEASEDATE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECTOR" id="A5E4C683-5ABA-2125-F533-25F8364BEA29">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>DIRECTOR</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATING" id="DE38055E-619C-2A6A-BD10-E9494AB8A6B1">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>RATING</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE" id="43FB2BB3-C850-CE8D-D582-4BD608F09171">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>MOVIE</sourceObjSchema>
+<sourceObjName>LANGUAGE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E251A434-22EA-BCAA-C543-AD52D46B31D1" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="MOVIE_PK">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>SYS_C009061</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:03 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F337E0FF-7506-3E14-FB08-FA3DA43E6DCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

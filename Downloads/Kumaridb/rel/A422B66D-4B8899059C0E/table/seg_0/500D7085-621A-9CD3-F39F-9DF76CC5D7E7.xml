@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="500D7085-621A-9CD3-F39F-9DF76CC5D7E7" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="TICKET">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>TICKET</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TICKETID" id="FF499074-4D39-8826-68E1-E63BB3DF5B4F">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>TICKET</sourceObjSchema>
+<sourceObjName>TICKETID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="BOOKINGID" id="78028A1E-9770-8616-9AD4-94D15370F883">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>TICKET</sourceObjSchema>
+<sourceObjName>BOOKINGID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE4D6A63-83D8-8D1A-77A7-8B7ACED3C579" referredColumn="15781F04-3A5F-C6D3-6B4F-D3C2066D6755"/>
+</associations>
+</Column>
+<Column name="QRCODE" id="372D7576-04BA-F74C-2097-88227ED2D1B1">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>TICKET</sourceObjSchema>
+<sourceObjName>QRCODE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISSUEDATE" id="41A51A1D-281C-DA9B-9E82-87EE1BFA7789">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>TICKET</sourceObjSchema>
+<sourceObjName>ISSUEDATE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TICKETSTATUS" id="D1FCFEDB-B394-1A64-273C-0A9DB3D4AFD6">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>TICKET</sourceObjSchema>
+<sourceObjName>TICKETSTATUS</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E51C144-6A9C-D4C6-5F9A-016B55968C91" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="TICKET_PK">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>SYS_C009088</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:05 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF499074-4D39-8826-68E1-E63BB3DF5B4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A51E51E2-3A84-64A8-61C4-656246639B4C" name="FK_TICKET_BOOKING">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78028A1E-9770-8616-9AD4-94D15370F883"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

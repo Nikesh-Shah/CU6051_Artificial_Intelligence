@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07D3DE3D-1389-DED8-41E0-6C3E9608B1CD" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="SEAT">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>SEAT</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEATID" id="F1A58185-4C5C-D481-20E9-A018432C42C7">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>SEAT</sourceObjSchema>
+<sourceObjName>SEATID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="BOOKINGID" id="722D45ED-514F-52C7-F7DF-1196A9C75FF3">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>SEAT</sourceObjSchema>
+<sourceObjName>BOOKINGID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1557BF91-DE7F-79CF-D904-761570128F12" referredColumn="15781F04-3A5F-C6D3-6B4F-D3C2066D6755"/>
+</associations>
+</Column>
+<Column name="TICKETPRICEID" id="F607C508-0EAB-C370-097C-53D44EE8C3FE">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>SEAT</sourceObjSchema>
+<sourceObjName>TICKETPRICEID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDD04F6B-D257-3AAA-EC34-384110E027AB" referredColumn="59CD2815-9F09-569C-56AA-596825D74D59"/>
+</associations>
+</Column>
+<Column name="SEATTYPEID" id="13FDDA52-16C1-9AE0-7033-929C8F880EBD">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>SEAT</sourceObjSchema>
+<sourceObjName>SEATTYPEID</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69324A4C-78BD-879D-B4F8-D7196BA2C346" referredColumn="48471266-7C97-55C8-43C6-1987EDE191E2"/>
+</associations>
+</Column>
+<Column name="SEATNUMBER" id="9E92200B-A8DE-51CB-45CC-B5CF65AA1F1E">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>SEAT</sourceObjSchema>
+<sourceObjName>SEATNUMBER</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87B92E5B-94F9-DE21-DB5C-25ED1D028BA9" schemaObject="CDC3E17C-45E7-704F-4727-05E1A1AD4841" name="SEAT_PK">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>SYS_C009083</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:03 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1A58185-4C5C-D481-20E9-A018432C42C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E080D59-9F88-0FEA-78A3-3D46B68508CF" name="FK_SEAT_BOOKING">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="722D45ED-514F-52C7-F7DF-1196A9C75FF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00A2376D-9111-C459-0C75-F1DCC4C7ED75" name="FK_SEAT_SEATTYPE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13FDDA52-16C1-9AE0-7033-929C8F880EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38464B33-EC34-2391-46F5-F801914A41F9" name="FK_SEAT_TICKETPRICE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F607C508-0EAB-C370-097C-53D44EE8C3FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

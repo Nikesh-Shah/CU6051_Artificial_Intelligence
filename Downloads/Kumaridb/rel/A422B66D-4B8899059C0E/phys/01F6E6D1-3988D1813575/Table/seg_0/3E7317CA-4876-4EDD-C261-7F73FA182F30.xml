@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PAYMENT" directorySegmentName="seg_0" id="3E7317CA-4876-4EDD-C261-7F73FA182F30">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<schemaObject>CDC3E17C-45E7-704F-4727-05E1A1AD4841</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D369F069-CFAA-24D4-53BF-3CEB7A3489D8</segment>
+<tableSpace>4D3C86C0-0DD9-A27A-C780-C865F194C800</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAYMENTMETHOD" id="60CCD36B-031A-3548-6E51-4B8C204B298C">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENTID" id="73995936-D480-F103-E194-446AC6494009">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="PAYMENTAMOUNT" id="8573497C-F033-B99A-DEC8-310FFB3091C6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENTDATE" id="92CCE6B1-8D5F-3C62-3B95-87C67B63A943">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENTSTATUS" id="ACEBD4DC-D79C-2575-3792-FD9A191BD6BB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAYMENT_PK" id="88FBBE7D-9D5D-D929-61B0-CD9BF3D8B44A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:06 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<schemaObject>CDC3E17C-45E7-704F-4727-05E1A1AD4841</schemaObject>
+<segment>83440E36-FD3B-1CF4-DFA6-6B0BA8DC103A</segment>
+<tableSpace>4D3C86C0-0DD9-A27A-C780-C865F194C800</tableSpace>
+<indexSegment>83440E36-FD3B-1CF4-DFA6-6B0BA8DC103A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

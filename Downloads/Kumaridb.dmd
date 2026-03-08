@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Kumaridb" id="F72AE02A-5014-6711-9AAB-5FA0D67D1BB6" version="3.5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:25:58 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F72AE02A-5014-6711-9AAB-5FA0D67D1BB6</designId>
+</OSDM_Design>

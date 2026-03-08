@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TICKETPRICE" directorySegmentName="seg_0" id="212AC80E-8E77-1B4E-2515-8DF87847681F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<schemaObject>CDC3E17C-45E7-704F-4727-05E1A1AD4841</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D369F069-CFAA-24D4-53BF-3CEB7A3489D8</segment>
+<tableSpace>4D3C86C0-0DD9-A27A-C780-C865F194C800</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TICKETPRICEID" id="59CD2815-9F09-569C-56AA-596825D74D59">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="HOLIDAYPERCENT" id="B99D20DE-90D3-AEDB-1B62-C2DBDA0C9A10">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NEWRELEASEPERCENT" id="D4F9D736-6571-E83F-90E1-7D457B015180">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:02 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TICKETPRICE_PK" id="AFFFB497-5A60-FADB-D0C1-FB1DF3834438">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:06 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<schemaObject>CDC3E17C-45E7-704F-4727-05E1A1AD4841</schemaObject>
+<segment>83440E36-FD3B-1CF4-DFA6-6B0BA8DC103A</segment>
+<tableSpace>4D3C86C0-0DD9-A27A-C780-C865F194C800</tableSpace>
+<indexSegment>83440E36-FD3B-1CF4-DFA6-6B0BA8DC103A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

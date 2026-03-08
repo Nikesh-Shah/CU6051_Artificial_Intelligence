@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDD04F6B-D257-3AAA-EC34-384110E027AB" containerWithKeyObject="07D3DE3D-1389-DED8-41E0-6C3E9608B1CD" localFKIndex="38464B33-EC34-2391-46F5-F801914A41F9" name="FK_SEAT_TICKETPRICE">
+<sourceConnName>KumariCinema</sourceConnName>
+<sourceObjSchema>KUMARICINEMA</sourceObjSchema>
+<sourceObjName>FK_SEAT_TICKETPRICE</sourceObjName>
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:31:07 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<referredTableLongName>KUMARICINEMA.TICKETPRICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>212AC80E-8E77-1B4E-2515-8DF87847681F</referredTableID>
+<keyObject>AFFFB497-5A60-FADB-D0C1-FB1DF3834438</keyObject>
+<referredKeyID>AFFFB497-5A60-FADB-D0C1-FB1DF3834438</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TICKETPRICEID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

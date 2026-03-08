@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A422B66D-2220-50CD-4506-4B8899059C0E" mainViewID="CF574043-BD36-9A1E-A340-B6DF8CBB46B1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-03-08 16:27:01 UTC</createdTime>
+<ownerDesignName>Kumaridb</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>KumariCinema</connName>
+<connUser>KUMARICINEMA</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>
